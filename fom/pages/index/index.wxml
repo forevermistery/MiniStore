@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{background}}" wx:key="*this">
+                <swiper-item>
+                    <view><image src='{{item}}'/></view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+<!-- 分类 -->
+<view>
+
+
+  
+
+
+</view>
+
+
+
+
+
+</view>
